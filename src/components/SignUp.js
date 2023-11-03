@@ -43,9 +43,9 @@ function SignUpForm() {
           placeholder="Name"
         />
         <input
-          type="number"
+          type="tel"
           placeholder="Phone number"
-          name="phone number"
+          name="phone_number"
           value={state.phone_number}
           onChange={handleChange}
         />
