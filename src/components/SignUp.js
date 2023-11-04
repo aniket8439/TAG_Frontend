@@ -56,12 +56,34 @@ function SignUpForm() {
           onChange={handleChange}
           placeholder="Email"
         />
+        
+        <input
+          type="text"
+          name="instagram"
+          // value={state.password}
+          // onChange={handleChange}
+          placeholder="Instagram Link"
+        />
+        <input
+          type="text"
+          name="facebook"
+          // value={state.password}
+          // onChange={handleChange}
+          placeholder="Facebook link"
+        />
         <input
           type="password"
           name="password"
           value={state.password}
           onChange={handleChange}
           placeholder="Password"
+        />
+        <input
+          type="password"
+          name="confirm password"
+          // value={state.password}
+          // onChange={handleChange}
+          placeholder="Confirm Password"
         />
         <button>Sign Up</button>
       </form>
